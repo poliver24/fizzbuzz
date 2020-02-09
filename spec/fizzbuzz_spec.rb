@@ -23,3 +23,9 @@ describe 'fizzbuzz' do
     expect(fizzbuzz(6)).to eq 'fizz'
   end
 end
+
+describe 'fizzbuzz' do
+  it 'returns "buzz" when divisible by 5' do
+    expect(fizzbuzz(10)).to eq 'buzz'
+  end
+end
