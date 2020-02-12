@@ -25,4 +25,7 @@ describe 'fizzbuzz' do
     expect(30.fizzbuzz).to eq 'fizzbuzz'
   end
 
+  it 'returns number if not divisible by 3 or 5' do
+    expect(49.fizzbuzz).to eq 49
+  end
 end
