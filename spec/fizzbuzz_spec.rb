@@ -14,7 +14,11 @@ describe 'fizzbuzz' do
   end
 
   it 'returns "fizz" if divisble by 3' do
-    expect(3.fizzbuzz).to eq 'fizz'
+    expect(6.fizzbuzz).to eq 'fizz'
+  end
+
+  it 'returns "buzz" if divisible by 5' do
+    expect(10.fizzbuzz).to eq 'buzz'
   end
 
 end
