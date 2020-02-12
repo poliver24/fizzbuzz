@@ -21,4 +21,8 @@ describe 'fizzbuzz' do
     expect(10.fizzbuzz).to eq 'buzz'
   end
 
+  it 'returns "fizzbuzz" if divisble by 3 & 5' do
+    expect(30.fizzbuzz).to eq 'fizzbuzz'
+  end
+
 end
